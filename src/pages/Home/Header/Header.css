@@ -1,0 +1,11 @@
+.navlink {
+  margin-right: 42px;
+  font-size: 16px;
+  line-height: 144.4%;
+  color: var(--black-color);
+  opacity: 0.4;
+  text-decoration: none;
+}
+.active {
+  opacity: 1;
+}

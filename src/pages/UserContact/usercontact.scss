@@ -1,0 +1,22 @@
+.navlinkUser {
+  width: 420px;
+  margin: 0px;
+  padding: 22px 0px 22px 22px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--black-color);
+  background-color: var(--white-color);
+  border-radius: 4px 4px 0px 0px;
+  opacity: 1;
+  text-decoration: none;
+}
+.activeUser {
+  color: #152540;
+  background-color: var(--navlinkBg-color);
+  border-radius: 4px 4px 0px 0px;
+}
+.active span {
+  color: #fff !important;
+  background-color: #000;
+}

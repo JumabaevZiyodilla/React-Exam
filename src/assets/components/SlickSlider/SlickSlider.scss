@@ -1,0 +1,31 @@
+.slick-dots {
+  left: -410px;
+  bottom: 135px;
+
+  li {
+    width: 57px;
+    height: 3px;
+    button {
+      &::before {
+        width: 57px;
+        height: 3px;
+        margin-right: 10px;
+        color: #fff !important;
+        background-color: #ffffff99;
+        border-radius: 10px;
+        content: '';
+      }
+    }
+  }
+  &.slick-active button:before {
+    color: #fff;
+    background-color: #fff !important;
+    margin-right: 10px;
+  }
+}
+.slick-prev:before {
+  display: none;
+}
+.slick-next:before {
+  display: none;
+}

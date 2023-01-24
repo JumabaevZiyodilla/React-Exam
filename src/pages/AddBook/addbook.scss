@@ -1,0 +1,37 @@
+.addbook-wrapper {
+  display: flex;
+}
+.addbook-file-box {
+  width: 50%;
+  position: relative;
+  background-color: #f3f3f3;
+}
+.addbook-form-box {
+  width: 50%;
+  padding: 48px 123px;
+}
+.label {
+  position: absolute;
+  left: 275px;
+  top: 150px;
+  width: 315px;
+  height: 428px;
+  padding: 161px 73px;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  opacity: 0.3;
+  background-image: url("../../assets/img/file.svg");
+  background-position: calc(50% + -0px) calc(50% + -50px);
+  background-size: 62px;
+  background-repeat: no-repeat;
+  background-color: #f8f8f8;
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+  border-radius: 17px;
+}
+.file {
+  display: none;
+}

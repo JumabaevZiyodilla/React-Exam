@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../assets/fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+    url('../assets/fonts/poppins-v20-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    url('../assets/fonts/poppins-v20-latin-500.woff2') format('woff2'),
+    url('../assets/fonts/poppins-v20-latin-500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../assets/fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+    url('../assets/fonts/roboto-v30-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    url('../assets/fonts/roboto-v30-latin-500.woff2') format('woff2'),
+    url('../assets/fonts/roboto-v30-latin-500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''), url('../assets/fonts/roboto-v30-latin-900.woff2'),
+    format('woff2') url('../assets/fonts/roboto-v30-latin-900.woff')
+      format('woff');
+}
+
+.light {
+  --white-color: #fff;
+  --black-color: #191919;
+  --inputBg-color: #f5f5f5;
+  --buttonBg-color: #152540;
+  --navlinkBg-color: #dde6f5;
+  --spanBg-color: #e5eaee;
+  --labelBg-color: #f3f3f3;
+}
+.dark {
+  --white-color: #191919;
+  --black-color: #fff;
+  --inputBg-color: #404040;
+  --buttonBg-color: #ffffff;
+  --navlinkBg-color: #f3f6f9;
+  --spanBg-color: #2d2d2d;
+  --labelBg-color: #191919;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: 'Poppins', 'Arial', sans-serif;
+  font-weight: 400;
+  background-color: var(--white-color);
+}
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
